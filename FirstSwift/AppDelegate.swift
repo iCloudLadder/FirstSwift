@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var nav = UINavigationController (rootViewController: vc);
         nav.navigationBar.hidden = true;
         self.window!.rootViewController = nav;
-        
+        print("ssd")
 
         
         
